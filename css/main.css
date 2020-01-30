@@ -79,6 +79,14 @@
   background-size: cover;
   color: white;
 }
+@media (max-width: 768px) {
+  .banner {
+    height: auto;
+    background-repeat: repeat;
+    background-repeat: initial;
+    background-size: contain;
+  }
+}
 .banner .portfolio {
   font-size: 5rem;
   font-weight: 700;
