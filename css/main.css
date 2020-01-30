@@ -35,6 +35,30 @@
 .bg-img-8 {
   background-image: url("../image/cny.png");
 }
+.bg-img-9 {
+  background-image: url("../image/transcript.png");
+}
+.bg-img-10 {
+  background-image: url("../image/moh.png");
+}
+.bg-img-11 {
+  background-image: url("../image/mha.png");
+}
+.bg-img-12 {
+  background-image: url("../image/voilaba.png");
+}
+.bg-img-13 {
+  background-image: url("../image/ah-intra.png");
+}
+.bg-img-14 {
+  background-image: url("../image/newsletter.png");
+}
+.bg-img-15 {
+  background-image: url("../image/mnd.png");
+}
+.bg-img-16 {
+  background-image: url("../image/seo.png");
+}
 .banner {
   width: 100%;
   padding: 2rem;
@@ -57,11 +81,16 @@
 }
 .banner .portfolio {
   font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
 }
 @media (max-width: 768px) {
   .banner .portfolio {
-    font-size: 3rem;
+    font-size: 4rem;
   }
+}
+.banner h1 {
+  font-size: 2rem;
 }
 .time-line {
   width: 100%;
@@ -94,7 +123,7 @@
   }
 }
 .content .card-content-left {
-  width: 50%;
+  width: 70%;
   text-align: right;
   position: absolute;
   right: 0;
@@ -129,7 +158,7 @@
   }
 }
 .content .card-content-right {
-  width: 50%;
+  width: 70%;
   text-align: left;
   position: absolute;
   left: 0;
@@ -193,4 +222,47 @@
   letter-spacing: 0.3rem;
   font-weight: 700;
   border-radius: 0.25rem;
+}
+.bottom-banner {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 2rem;
+}
+.bottom-banner h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #5f5f5f;
+  letter-spacing: 0.2rem;
+}
+.bottom-banner .big-number {
+  margin: 1rem 0;
+}
+.bottom-banner .big-number p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9c9c9c;
+}
+.bottom-banner .results {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .bottom-banner .results {
+    width: 90%;
+  }
+}
+.bottom-banner .results .item {
+  text-align: center;
+}
+.bottom-banner .results .item h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #535353;
+}
+.bottom-banner .results .item p {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  color: #ff8364;
 }
