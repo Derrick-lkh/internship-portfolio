@@ -86,11 +86,16 @@
 }
 @media (max-width: 768px) {
   .banner .portfolio {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 .banner h1 {
   font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
 }
 .time-line {
   width: 100%;
